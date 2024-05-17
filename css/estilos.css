@@ -1,16 +1,25 @@
 p {
-    color:rgb(132, 39, 203)
+    color: rgb(132, 39, 203)
 }
+
 header {
     background-color: rgb(159, 109, 189);
+    text-align: center;
 }
+
 h1 {
     color: black;
-     /* background-color: crimson; */
+    /* background-color: crimson; */
 }
+
 h2 {
     color: rgb(130, 1, 250);
 }
+
 dt {
     color: darkmagenta;
+}
+
+li {
+    color: rgb(132, 39, 203);
 }
