@@ -1,5 +1,6 @@
 p {
-    color: rgb(132, 39, 203)
+    color: rgb(132, 39, 203);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 header {
@@ -22,4 +23,18 @@ dt {
 
 li {
     color: rgb(132, 39, 203);
+}
+
+table {
+    background-color: rgb(217, 179, 253);
+    border: 2px solid black margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: blueviolet;
+}
+
+td {
+    border: 2px solid black;
 }
