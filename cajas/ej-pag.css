@@ -1,0 +1,105 @@
+/*comentario en css*/
+body {
+    background-color: darkcyan;
+    color: blue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/*encabezado*/
+header {
+    background-color: rgb(106, 161, 233);
+    color: antiquewhite;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    /* pone en mayuscula las letras*/
+    font-size: 2.5em;
+    /*tamaño de fuente 1em 16px*/
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul il {
+    display: inline-block;
+    /*pone la lista horizontal*/
+    margin: 10px;
+    background-color: blueviolet;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+nav ul li a {
+    color: cadetblue;
+    text-decoration: none;
+    /*elimina el subrayado de la etiqueta anchor (a)*/
+    text-transform: uppercase;
+    font-weight: 400;
+    /*peso del contorno de la fuente*/
+}
+
+</div>footer nav ul li a {
+    font-weight: 400;
+}
+
+/*main*/
+section {
+    background-color: rgb(234, 166, 229);
+    border: 2px solid #005512;
+    margin: 3px 2px;
+    /*top-bottom left-right*/
+    margin: 10px 5px 5px 15px;
+    /*top - right - bottom - left*/
+    text-align: left;
+}
+
+section h2 {
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    /*perimite trabajar con las cajas según su disposición.
+    pone su contenidoo uno al lado del otro de forma horizontal*/
+}
+
+/*pie*/
+/*forma animada de escribir css*/
+footer {
+    nav {
+        background-color: cornflowerblue;
+
+        ul {
+            li {
+                background-color: transparent;
+                border: 0;
+
+                a {
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.redes {
+    width: 50px;
+}
+
+.sociales {
+    list-style: none;
+}
+
+.sociales {
+    display: inline-block;
+}
